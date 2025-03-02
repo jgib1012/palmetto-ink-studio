@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Palmetto Ink Studio</title>
+</head>
+<body>
+    <header>
+        <img src="images/screenshot1.png" alt="Palmetto Ink Studio Logo" width="100" class="logo">
+    </header>
+    <h1>Contact Us</h1>
+    <p>We have three locations in South Carolina: Greenville, Columbia, and Charleston.</p>
+    
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="location">Select Your Location:</label>
+        <select id="location" name="location" required>
+            <option value="greenville">Greenville</option>
+            <option value="columbia">Columbia</option>
+            <option value="charleston">Charleston</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

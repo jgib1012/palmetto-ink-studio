@@ -1,0 +1,325 @@
+/* Palmetto Ink Studio - External CSS */
+
+/* Set base font, background color, and default text color */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0c1b3a;
+    color: #fff;
+  }
+  
+  /* Style the header with white background and flex layout */
+  header {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  /* Remove list styling and apply horizontal layout to nav */
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style nav links with bold text and no underline */
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  /* Logo size in the header */
+  .logo {
+    width: 80px;
+  }
+  
+  /* Layout for the main hero section with image and text */
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px 40px;
+    gap: 60px;
+    flex-wrap: wrap;
+    background-color: #0c1b3a;
+  }
+  
+  /* Stack tattoo flash images vertically on the left */
+  .left-flash-images {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-shrink: 0;
+  }
+  
+  /* Style each image with border and shadow */
+  .left-flash-images img {
+    width: 140px;
+    border: 5px solid #edd695;
+    background-color: #edd695;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  }
+  
+  /* Style the beige hero text box on the right */
+  .hero-text {
+    background-color: #edd695;
+    color: black;
+    padding: 30px 25px;
+    border-radius: 50px 50px 0 0;
+    max-width: 550px;
+    font-size: 1rem;
+    line-height: 1.6;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style hero heading */
+  .hero-text h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraph spacing inside hero */
+  .hero-text p {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  
+  /* Tattoo logo inside hero text section */
+  .hero-logo {
+    display: block;
+    margin-top: 20px;
+    width: 100px;
+  }
+  
+  /* Heading for Our Artist section */
+  .artist-heading {
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8rem;
+    color: white;
+  }
+  
+  /* Layout artist images in a grid */
+  .artist-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 10px;
+    gap: 30px;
+    background-color: #0c1b3a;
+  }
+  
+  /* Style individual artist cards */
+  .artist-grid article {
+    text-align: center;
+    color: white;
+  }
+  
+  /* Image styling for artist profiles */
+  .artist-grid img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 6px solid #f5f0e6;
+  }
+  
+  /* Name spacing under artist photo */
+  .artist-grid p {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Styling for location blocks */
+  .location {
+    background-color: white;
+    margin: 20px 0;
+    padding: 15px;
+    border-left: 5px solid #02183F;
+  }
+  
+  /* Placeholder map container */
+  .map {
+    width: 100%;
+    height: 200px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  
+  /* Contact form container styling */
+  form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-top: 20px;
+  }
+  
+  /* Label styling above input fields */
+  form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Input fields, select, textarea styling */
+  form input,
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #999;
+    border-radius: 4px;
+  }
+  
+  /* Submit button style */
+  button {
+    background-color: #02183F;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #03306e;
+  }
+  
+  /* FAQ item container styling */
+  .faq-item {
+    padding: 20px;
+    background-color: #edd695;
+    margin: 15px auto;
+    border-radius: 12px;
+    width: 90%;
+    color: #222;
+    font-weight: 500;
+  }
+  
+  /* Spacing between FAQ items */
+  .faq-item:not(:first-child) {
+    margin-top: 20px;
+  }
+  
+  /* FAQ question clickable section */
+  .faq-question {
+    position: relative;
+    cursor: pointer;
+    padding-right: 20px;
+  }
+  
+  /* Plus sign after question */
+  .faq-question::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+  }
+  
+  /* Change plus to minus when open */
+  .faq-item.open .faq-question::after {
+    content: "-";
+  }
+  
+  /* Hidden answer text styling */
+  .faq-answer {
+    display: none;
+    margin-top: 10px;
+    padding-left: 10px;
+  }
+  
+  /* Show answer when question is open */
+  .faq-item.open .faq-answer {
+    display: block;
+  }
+  
+  /* Hover background for FAQ question */
+  .faq-question:hover {
+    background-color: #e8e2d8;
+  }
+  
+  /* Footer layout with three sections */
+  .footer {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+  /* Footer columns (left, center, right) */
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    flex: 1 1 250px;
+    padding: 10px;
+  }
+  
+  /* Headings in footer sections */
+  .footer-left h3,
+  .footer-left h4,
+  .footer-right h4 {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 1rem;
+  }
+  
+  /* Centered logo in the footer */
+  .footer-logo-wrapper {
+    text-align: center;
+  }
+  
+  /* Footer logo size */
+  .footer-logo {
+    width: 60px;
+    margin-bottom: 10px;
+  }
+  
+  /* Social icons container */
+  .social-icons {
+    margin-top: 5px;
+  }
+  
+  /* Social media icon styling */
+  .social-icons img {
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+  }
+  
+  /* Footer text styling */
+  .footer p {
+    margin: 4px 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    text-align: center;
+  }
+  
+  /* Paragraph spacing in footer center */
+  .footer-center p {
+    margin: 3px 0;
+    font-size: 0.85rem;
+  }
+  

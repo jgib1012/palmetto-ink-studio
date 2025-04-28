@@ -1,5 +1,6 @@
 /* Palmetto Ink Studio - External CSS */
 
+<<<<<<< HEAD
 /* background color, and default text color */
 body {
   font-family: Arial, sans-serif;
@@ -16,6 +17,16 @@ body {
   background-attachment: fixed;
 }
 
+=======
+/* Set base font, background color, and default text color */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0c1b3a;
+    color: #fff;
+  }
+>>>>>>> e38ff85fd8d7190431f6b03f1ce82bf233225781
   
   /* Style the header with white background and flex layout */
   header {
@@ -27,6 +38,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
   }
+<<<<<<< HEAD
 
   nav {
     background-color: #f0f0f0; /* light gray */
@@ -40,6 +52,8 @@ body {
   
   
   
+=======
+>>>>>>> e38ff85fd8d7190431f6b03f1ce82bf233225781
   
   /* Remove list styling and apply horizontal layout to nav */
   nav ul {
@@ -49,11 +63,17 @@ body {
     padding: 0;
     margin: 0;
   }
+<<<<<<< HEAD
 
+=======
+  
+  /* Style nav links with bold text and no underline */
+>>>>>>> e38ff85fd8d7190431f6b03f1ce82bf233225781
   nav a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+<<<<<<< HEAD
     padding: 10px;
     border-radius: 8px;
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
@@ -79,6 +99,10 @@ body {
 
   
 
+=======
+  }
+  
+>>>>>>> e38ff85fd8d7190431f6b03f1ce82bf233225781
   /* Logo size in the header */
   .logo {
     width: 80px;
@@ -170,7 +194,11 @@ body {
   /* Style individual artist cards */
   .artist-grid article {
     text-align: center;
+<<<<<<< HEAD
     color: #edd695;
+=======
+    color: white;
+>>>>>>> e38ff85fd8d7190431f6b03f1ce82bf233225781
   }
   
   /* Image styling for artist profiles */
@@ -178,7 +206,11 @@ body {
     width: 150px;
     height: 150px;
     object-fit: cover;
+<<<<<<< HEAD
     border: 6px solid #edd695;
+=======
+    border: 6px solid #f5f0e6;
+>>>>>>> e38ff85fd8d7190431f6b03f1ce82bf233225781
   }
   
   /* Name spacing under artist photo */
@@ -189,7 +221,11 @@ body {
   
   /* Styling for location blocks */
   .location {
+<<<<<<< HEAD
     background-color: #edd695;
+=======
+    background-color: white;
+>>>>>>> e38ff85fd8d7190431f6b03f1ce82bf233225781
     margin: 20px 0;
     padding: 15px;
     border-left: 5px solid #02183F;
@@ -300,6 +336,7 @@ body {
   .faq-question:hover {
     background-color: #e8e2d8;
   }
+<<<<<<< HEAD
 
   .faq-heading {
     background-color: black;
@@ -311,6 +348,8 @@ body {
     margin: 0;
   }
   
+=======
+>>>>>>> e38ff85fd8d7190431f6b03f1ce82bf233225781
   
   /* Footer layout with three sections */
   .footer {
@@ -339,7 +378,11 @@ body {
     margin-bottom: 8px;
     font-size: 1rem;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> e38ff85fd8d7190431f6b03f1ce82bf233225781
   /* Centered logo in the footer */
   .footer-logo-wrapper {
     text-align: center;
@@ -376,6 +419,7 @@ body {
     margin: 3px 0;
     font-size: 0.85rem;
   }
+<<<<<<< HEAD
   
   /* === Contact Form Section Styles === */
 fieldset {
@@ -538,3 +582,6 @@ main, .content-area, header, footer {
 
 
 
+=======
+  
+>>>>>>> e38ff85fd8d7190431f6b03f1ce82bf233225781
